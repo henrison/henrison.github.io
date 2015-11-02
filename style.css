@@ -1,7 +1,10 @@
-body { background-color: #BBBBBB; }
+body {
+    font-family: Palatino, Verdana, Sans Serif;
+    background-color: #BBBBBB;
+}
+.corner { margin: 4em;}
 .fancy { margin-top: 150pt; }
 h1 {
-    font-family: Palatino, Verdana, Sans Serif;
     font-size: 5em;
 }
 
