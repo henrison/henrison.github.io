@@ -2,14 +2,17 @@
 title: Henrison Hsieh
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a PhD Candidate in Linguistics at McGill University. My work mainly focuses on syntax and semantics.
+  I am a PhD Candidate in Linguistics at McGill University.
+  My main research interests lie with Tagalog, an Austronesian language spoken in the Philippines.
+  In particular, I am interested in how Tagalog and related languages can inform our understanding of syntax and semantics.
+  Previously, I lived in Boston, where I attended Boston University and earned my BA majoring in Linguistics and Computer Science before working at a (now not so) small web startup, Jana Inc.
 # Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-# github_username:  jekyll
+github_username:  henrison
 
 # Build settings
 markdown: kramdown
