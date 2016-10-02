@@ -15,11 +15,15 @@
 
       <div class="trigger">
         {% if page.title %}
+          {% comment %}
+            Display a link to home page if not on home page (which doesn't have a page.title)
+          {% endcomment %}
           <a class="page-link" href="{{ site.baseurl }}/">Home</a>
         {% endif %}
+          <a class="page-link" target="_blank" href="{{ site.baseurl }}/hsieh-cv.pdf">CV (pdf)</a>
         {% for page in site.pages %}
           {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
