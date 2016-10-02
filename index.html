@@ -4,22 +4,43 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">{{ site.description }}</h1>
+  <h1>Welcome!</h1>
+  <p>{{ site.description }}</p>
 
-  <h1 class="page-heading">Posts</h1>
+  <p>
+    My work primarily draws on elicitation and fieldwork data from native speaker (and my own) judgements, but I am always on the lookout for ways to incorporate larger amounts of data using experimental and/or computational methods.
+  </p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <p>
+    This site is still pretty bare at the moment.
+    I figured I should stop endlessly tweaking, and actually publish it.
+    Please pardon the appearance while more information is added!
+  </p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <p>
+    You can contact me at <b>[firstname] [dot] [lastname] [at] mail [dot] mcgill [dot] ca</b>.
+  </p>
 </div>
+
+<div class="page-content">
+  Last updated: {{ site.last_updated | date: "%b %Y" }}
+</div>
+
+{% comment %}
+>>> Keeping this for posterity in case I want to set up some kind of post repository
+<h1 class="page-heading">Posts</h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+{% endcomment %}
