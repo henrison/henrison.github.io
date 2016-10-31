@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-[Download my full CV (pdf)]({{ site.baseurl }}/hsieh-cv.pdf)
+[Download my full CV (pdf)]({{ site.baseurl }}/files/hsieh-cv.pdf)
 
 # Publications
 
