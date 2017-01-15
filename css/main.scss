@@ -6,8 +6,10 @@
 
 
 // Our variables
-$base-font-family: Georgia, serif;
-$ipa-font-family:  Helvetica, Arial, sans-serif;
+$base-font-family: 'Noto Sans', serif;
+$head-font-family: 'Montserrat', sans-serif;
+$ipa-font-family:  sans-serif;
+// $ipa-font-family:  $base-font-family;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
