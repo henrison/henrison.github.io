@@ -8,9 +8,10 @@ permalink: /research/
 
 # Publications
 
-- **To appear.**
+- **2016.**
   Prosodic indicators of phrase structure in Tagalog transitive sentences.
-  In *Proceedings of the 23rd Meeting of the Austronesian Formal Linguistics Association*.
+  In *Proceedings of the 23rd Meeting of the Austronesian Formal Linguistics Association*, pp. 111-122.
+  [(Proceedings download)](http://hdl.handle.net/1885/111479)
 
 - **2016.**
   Distinguishing nouns and verbs: Against nominalism for Tagalog.
