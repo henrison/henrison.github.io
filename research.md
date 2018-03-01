@@ -7,47 +7,47 @@ permalink: /research/
 [Download my full CV (pdf)]({{ "files/hsieh-cv.pdf" | relative_url }})
 
 # Publications
+{% for pub in site.data.publications %}
+- **{{ pub.year }}.**
+  {% if pub.coauthor -%}
+    (with {{ pub.coauthor }})
+  {% endif -%}
+  {{ pub.title }}.
+  In *{{ pub.venue }}*, pp. {{ pub.pages }}.
+  {% if pub.link -%}
+    ([{{ pub.link.text }}](
+      {%- case pub.link.type -%}
+        {%- when 'local' -%}
+          {{ pub.link.url | relative_url }}
+        {%- when 'external' -%}
+          {{ pub.link.url }}
+      {%- endcase -%}
+    ))
+  {% endif %}
+{% endfor %}
 
-- **2016.**
-  Prosodic indicators of phrase structure in Tagalog transitive sentences.
-  In *Proceedings of the 23rd Meeting of the Austronesian Formal Linguistics Association*, pp. 111-122.
-  [(Proceedings download)](http://hdl.handle.net/1885/111479)
-
-- **2016.**
-  Distinguishing nouns and verbs: Against nominalism for Tagalog.
-  In *Proceedings of the 42nd Annual Meeting of the Berkeley Linguistics Society*, pp. 313–336.
-  [(Proceedings download)](http://linguistics.berkeley.edu/bls/proceedings.html)
-
-- **2015.**
-  [Future-oriented Actuality Entailments: A puzzle from Tagalog.]({{ "/files/nels-kaya.pdf" | relative_url }})
-  In *NELS 45: Proceedings of the 45th Annual Meeting of the North East Linguistic Society*, pp. 25–34.
 
 # Presentations
-
-- **2016.**
-  [Prosodic indicators of phrase structure in Tagalog transitive sentences.]({{ "/files/afla-prosody-handout.pdf" | relative_url }})
-  Presented at the 23rd Annual Meeting of the Austronesian Formal Linguistics Association (AFLA),
-  Tokyo University of Foreign Studies, June 10–12. (talk)
-
-- **2016.**
-  [Distinguishing nouns and verbs: Against the nominalist analysis for Tagalog.]({{ "/files/seals-nv.pdf" | relative_url }})
-  Presented at the 26th Annual Meeting of the Southeast Asian Linguistics Society (SEALS),
-  Manila, Philippines, May 26–28. (talk)
-
-- **2016.**
-  Distinguishing nouns and verbs: Against the nominalist analysis for Tagalog.
-  Presented at the 42nd Annual Meeting of the Berkeley Linguistics Society (BLS),
-  UC Berkeley, February 5–7. (talk)
-
-- **2015.**
-  [Actuality entailments and an additional meaning component.]({{ "/files/tom-ae.pdf" | relative_url }})
-  Presented at the 8th Toronto–Ottawa–Montreal semantics workshop (TOM),
-  Carleton University, Ottawa, April 11. (talk)
-
-- **2014.**
-  Future-oriented Actuality Entailments: A puzzle from Tagalog.
-  Presented at the 45th Annual Meeting of the North East Linguistic Society (NELS),
-  MIT, Oct 31–Nov 2. (poster)
+{% for pres in site.data.presentations %}
+- **{{ pres.date | date: "%Y" }}.**
+  {% if pres.coauthor -%}
+    (with {{ pres.coauthor }})
+  {% endif -%}
+  {{ pres.title }}.
+  Presented at {{ pres.venue }}, {{ pres.location }}, {{ pres.date | date: "%b %-d"}}
+  {%- if pres.date_end -%}--
+    {%- capture start_mo -%}{{pres.date | date: "%b " }}{%- endcapture -%}
+    {%- capture end_mo -%}{{pres.date_end | date: "%b " }}{%- endcapture -%}
+    {%- if start_mo != end_mo -%}
+      {{ end_mo }}
+    {%- endif -%}
+    {{ pres.date_end | date: "%-d" }}
+  {%- endif -%}.
+  ({{ pres.type }}
+  {%- if pres.link -%}
+    ; [{{ pres.link.text }}]({{ pres.link.url | relative_url }})
+  {%- endif -%})
+{% endfor %}
 
 
 

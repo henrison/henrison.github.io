@@ -1,0 +1,57 @@
+# TEMPLATE
+# - year:
+#   coauthor:
+#   title: ''
+#   venue:
+#   pages:
+#   link:
+#     type: [local, external]
+#     text:
+#     url:
+
+- year: 2018
+  coauthor: Luis Alonso-Ovalle
+  title: 'Overcoming the unexpected\: The Tagalog Ability/Involuntary Action form'
+  venue: Proceedings of WCCFL 35
+  pages: 59-68
+  link:
+    type: external
+    text: pdf
+    url: http://www.lingref.com/cpp/wccfl/35/paper3375.pdf
+
+- year: 2017
+  coauthor: Luis Alonso-Ovalle
+  title: 'Causes and expectations: On the interpretation of the Tagalog Ability/Involuntary Action form'
+  venue: Proceedings of SALT 27
+  pages: 75-94
+  link:
+    type: external
+    text: link
+    url: https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/27.75/3837
+
+- year: 2016
+  title: 'Prosodic indicators of phrase structure in Tagalog transitive sentences'
+  venue: Proceedings of AFLA 23
+  pages: 111-122
+  link:
+    type: external
+    text: proceedings
+    url: http://hdl.handle.net/1885/111479
+
+- year: 2016
+  title: 'Distinguishing nouns and verbs\: Against nominalism for Tagalog'
+  venue: Proceedings of BLS 42
+  pages: 313-336
+  link:
+    type: external
+    text: proceedings
+    url: http://linguistics.berkeley.edu/bls/proceedings.html
+
+- year: 2015
+  title: 'Future-oriented Actuality Entailments\: A puzzle from Tagalog'
+  venue: Proceedings of NELS 45
+  pages: 25-34
+  link:
+    type: local
+    text: pdf
+    url: /files/nels-kaya.pdf
