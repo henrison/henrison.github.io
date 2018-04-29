@@ -1,0 +1,119 @@
+# TEMPLATE
+# - date:
+#   date_end:
+#   title: ''
+#   coauthor:
+#   venue:
+#   location:
+#   type:
+#   link:
+#     text:
+#     url:
+
+- date: 2018-01-04
+  date_end: 2018-01-07
+  title: 'Clausal arguments in Tagalog'
+  coauthor: Yining Nie
+  venue: LSA 2018
+  location: Salt Lake City, UT
+  type: talk
+  link:
+    text: slides
+    url: files/lsa2018-slides.pdf
+
+# - date: 2017-06-09
+#   date_end: 2017-06-11
+#   title: 'AIA Talk'
+#   coauthor: Luis Alonso-Ovalle
+#   venue: the 4th TripleA semantic fieldwork workshop
+#   location: University of Gothenburg
+#   type: talk
+  # link:
+  #   text:
+  #   url:
+
+- date: 2017-05-11
+  date_end: 2017-05-14
+  title: 'Anchored Implicatives\: Tagalog Ability/Involuntary Action'
+  coauthor: Luis Alonso-Ovalle
+  venue: SALT 25
+  location: University of Maryland
+  type: poster
+  # link:
+  #   text:
+  #   url:
+
+- date: 2017-04-28
+  date_end: 2017-04-30
+  title: 'Anchored Implicatives\: Tagalog Ability/Involuntary Action'
+  coauthor: Luis Alonso-Ovalle
+  venue: WCCFL 35
+  location: University of Calgary
+  type: talk
+  # link:
+  #   text:
+  #   url:
+
+# - date: 2017-04-22
+#   title: 'AIA Talk'
+#   coauthor: Luis Alonso-Ovalle
+#   venue: the 10th Toronto–Ottawa–Montreal semantics workshop (TOM)
+#   location: University of Toronto
+#   type: talk
+  # link:
+  #   text:
+  #   url:
+
+- date: 2017-04-07
+  date_end: 2017-04-09
+  title: 'Overcoming the unexpected\: The Tagalog Ability/Involuntary Action verbal inflection'
+  coauthor: Luis Alonso-Ovalle
+  venue: AFLA 24
+  location: University of Washington
+  type: talk
+  # link:
+  #   text:
+  #   url:
+
+- date: 2016-06-10
+  date_end: 2016-06-12
+  title: 'Prosodic indicators of phrase structure in Tagalog transitive sentences'
+  venue: AFLA 23
+  location: Tokyo University of Foreign Studies
+  type: talk
+  link:
+    text: handout
+    url: /files/afla-prosody-handout.pdf
+
+- date: 2016-05-26
+  date_end: 2016-05-28
+  title: 'Distinguishing nouns and verbs: Against the nominalist analysis for Tagalog'
+  venue: SEALS 26
+  location: Manila, Philippines
+  type: talk
+  link:
+    text: handout
+    url: /files/seals-nv.pdf
+
+- date: 2016-02-05
+  date_end: 2016-02-07
+  title: 'Distinguishing nouns and verbs: Against the nominalist analysis for Tagalog'
+  venue: BLS 42
+  location: UC Berkeley
+  type: talk
+
+- date: 2015-04-11
+  title: 'Actuality entailments and an additional meaning component'
+  venue: the 8th Toronto–Ottawa–Montreal semantics workshop (TOM)
+  location: Carleton University, Ottawa
+  type: talk
+  link:
+    text: handout
+    url: /files/tom-ae.pdf
+
+- date: 2014-10-31
+  date_end: 2014-11-02
+  title: 'Future-oriented Actuality Entailments: A puzzle from Tagalog'
+  venue: NELS 45
+  location: MIT
+  type: poster
