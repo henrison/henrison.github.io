@@ -21,20 +21,20 @@
     text: slides
     url: files/lsa2018-slides.pdf
 
-- date: 2017-06-09
-  date_end: 2017-06-11
-  title: 'AIA Talk'
-  coauthor: Luis Alonso-Ovalle
-  venue: the 4th TripleA semantic fieldwork workshop
-  location: University of Gothenburg
-  type: talk
+# - date: 2017-06-09
+#   date_end: 2017-06-11
+#   title: 'AIA Talk'
+#   coauthor: Luis Alonso-Ovalle
+#   venue: the 4th TripleA semantic fieldwork workshop
+#   location: University of Gothenburg
+#   type: talk
   # link:
   #   text:
   #   url:
 
 - date: 2017-05-11
   date_end: 2017-05-14
-  title: 'AIA Talk'
+  title: 'Anchored Implicatives\: Tagalog Ability/Involuntary Action'
   coauthor: Luis Alonso-Ovalle
   venue: SALT 25
   location: University of Maryland
@@ -45,7 +45,7 @@
 
 - date: 2017-04-28
   date_end: 2017-04-30
-  title: 'AIA Talk'
+  title: 'Anchored Implicatives\: Tagalog Ability/Involuntary Action'
   coauthor: Luis Alonso-Ovalle
   venue: WCCFL 35
   location: University of Calgary
@@ -54,12 +54,12 @@
   #   text:
   #   url:
 
-- date: 2017-04-22
-  title: 'AIA Talk'
-  coauthor: Luis Alonso-Ovalle
-  venue: the 10th Toronto–Ottawa–Montreal semantics workshop (TOM)
-  location: University of Toronto
-  type: talk
+# - date: 2017-04-22
+#   title: 'AIA Talk'
+#   coauthor: Luis Alonso-Ovalle
+#   venue: the 10th Toronto–Ottawa–Montreal semantics workshop (TOM)
+#   location: University of Toronto
+#   type: talk
   # link:
   #   text:
   #   url:

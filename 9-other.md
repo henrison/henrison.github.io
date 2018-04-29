@@ -1,12 +1,11 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Other
+permalink: /other/
 ---
 
 
-
-# My name
+# If you're curious about my name
 
 I pronounce my first name <span class="text-ipa">[ˈhɛnrɪsən]</span>, which is kind of like "Henry" with a suffix "-son".
 People sometimes mishear my name as "Harrison" or "Henderson", but those are not my names.
