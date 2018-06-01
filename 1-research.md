@@ -13,7 +13,9 @@ permalink: /research/
     (with {{ pub.coauthor }})
   {% endif -%}
   {{ pub.title }}.
-  In *{{ pub.venue }}*, pp. {{ pub.pages }}.
+  {% unless pub.journal -%} In {% endunless -%}
+  *{{ pub.venue }}*
+  {%- if pub.pages -%}, pp. {{ pub.pages }}{%- endif -%}.
   {% if pub.link -%}
     ([{{ pub.link.text }}](
       {%- case pub.link.type -%}

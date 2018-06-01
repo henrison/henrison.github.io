@@ -2,12 +2,23 @@
 # - year:
 #   coauthor:
 #   title: ''
+#   journal: true
 #   venue:
 #   pages:
 #   link:
 #     type: [local, external]
 #     text:
 #     url:
+
+- year: accepted
+  title: 'Distinguishing nouns and verbs: A Tagalog case study'
+  journal: true
+  venue: Natural Language and Linguistic Theory
+  # pages:
+  # link:
+  #   type: [local, external]
+  #   text:
+  #   url:
 
 - year: 2018
   coauthor: Luis Alonso-Ovalle
