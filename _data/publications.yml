@@ -10,15 +10,15 @@
 #     text:
 #     url:
 
-- year: accepted
+- year: 'to appear'
   title: 'Distinguishing nouns and verbs: A Tagalog case study'
   journal: true
   venue: Natural Language and Linguistic Theory
   # pages:
-  # link:
-  #   type: [local, external]
-  #   text:
-  #   url:
+  link:
+    type: local
+    text: "author's accepted manuscript"
+    url: /files/nllt-nv.pdf
 
 - year: 2018
   coauthor: Luis Alonso-Ovalle
