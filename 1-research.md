@@ -16,16 +16,10 @@ permalink: /research/
   {% unless pub.journal -%} In {% endunless -%}
   *{{ pub.venue }}*
   {%- if pub.pages -%}, pp. {{ pub.pages }}{%- endif -%}.
-  {% if pub.link -%}
-    ([{{ pub.link.text }}](
-      {%- case pub.link.type -%}
-        {%- when 'local' -%}
-          {{ pub.link.url | relative_url }}
-        {%- when 'external' -%}
-          {{ pub.link.url }}
-      {%- endcase -%}
-    ))
-  {% endif %}
+  ({%- for l in pub.link -%}
+    [{{ l.text }}]({{ l.url }})
+    {%- if forloop.last == false %}; {% endif -%}
+  {% endfor -%})
 {% endfor %}
 
 
