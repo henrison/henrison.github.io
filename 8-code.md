@@ -17,4 +17,4 @@ Here are links to some outlines with useful information for different aspects of
 Here are some of the source files for previous presentations of mine, if you're learning LaTeX and would like to mess around with someone else's code.
 All files are provided as is, and may or may not compile totally correctly on your machine.
 - [Bibliography.bib](/files/latex/Bibliography.bib): Not technically necessary to compile the other files, but you need this if you want the citations in the other files to compile properly.
-- [SEALS 28 Slides](/files/latex/seals28-slides.tex): Slides for my SEALS 28 presentation
+- [SEALS 28 Slides](/files/latex/seals28-slides.tex): Slides for my SEALS 28 presentation ([Output PDF](/files/latex/seals28-slides.pdf))
