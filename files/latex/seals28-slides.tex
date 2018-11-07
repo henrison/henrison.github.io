@@ -1,0 +1,733 @@
+\documentclass[pdf]{beamer}
+\usetheme{Szeged}
+\usecolortheme{beaver}
+\beamertemplatenavigationsymbolsempty{}
+\setbeamertemplate{footline}[frame number]
+
+% \mode<presentation>{}
+
+\AtBeginSection[]{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+% \usepackage[expex]{syn-gloss}
+\usepackage[normalem]{ulem}
+\usepackage{expex}
+\newcommand{\ix}[1]{{\footnotesize<}#1{\footnotesize>}}
+\newcommand{\g}[1]{\textsc{#1}}
+
+\usepackage{leipzig}
+\newleipzig{av}{av}{Agent Voice}
+\newleipzig{pv}{pv}{Patient Voice}
+\newleipzig{lv}{lv}{Locative Voice}
+\newleipzig{cv}{cv}{Circumstantial Voice}
+\newleipzig{rv}{reason}{``Reason'' Voice}
+\newleipzig{lk}{lk}{Linker}
+\newleipzig{pol}{pol}{Politeness particle}
+\newleipzig{stat}{stat}{Stative}
+\newleipzig{ay}{ay}{Predicate Inversion}
+\newcommand{\Ang}{\Nom}
+\newcommand{\Ng}{\Gen}
+\newcommand{\Sa}{\Obl}
+\newcommand{\Ako}{\Fsg.\Ang}  \newcommand{\Kami}{\Fpl.\Excl.\Ang}
+                              \newcommand{\Tayo}{\Fpl.\Incl.\Ang}
+\newcommand{\Ko}{\Fsg.\Ng}    \newcommand{\Namin}{\Fpl.\Excl.\Ng}
+                              \newcommand{\Natin}{\Fpl.\Incl.\Ng}
+\newcommand{\Akin}{\Fsg.\Sa}  \newcommand{\Amin}{\Fpl.\Excl.\Sa}
+                              \newcommand{\Atin}{\Fpl.\Incl.\Sa}
+\newcommand{\Ka}{\Ssg.\Ang}   \newcommand{\Kayo}{\Spl.\Ang}
+\newcommand{\Ikaw}{\Ka}
+\newcommand{\Mo}{\Ssg.\Ng}    \newcommand{\Ninyo}{\Spl.\Ng}
+\newcommand{\Iyo}{\Ssg.\Sa}   \newcommand{\Inyo}{\Spl.\Sa}
+\newcommand{\Siya}{\Tsg.\Ang} \newcommand{\Sila}{\Tpl.\Ang}
+\newcommand{\Niya}{\Tsg.\Ng}  \newcommand{\Nila}{\Tpl.\Ng}
+\newcommand{\Kanya}{\Tsg.\Sa} \newcommand{\Kanila}{\Tpl.\Sa}
+
+
+\newcommand{\glp}[3][ ]{\textit{#2}#1`#3'}
+
+\resetcountonoverlays{excnt}
+\lingset{everyglb=\rm}
+
+\usepackage{booktabs}
+\usepackage[authoryear,sectionbib,comma]{natbib}
+
+\usepackage{xcolor}
+\newcommand{\texthl}[1]{\textcolor{cyan!75!blue}{\textbf{#1}}}
+
+\author{Henrison Hsieh}
+\institute{McGill University}
+\title{\textit{Wh}-Relative Clauses in Tagalog}
+\date[SEALS 28]{SEALS 28\\%
+  Wenzao Ursuline University of Languages\\%
+  May 17--19, 2018}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\section{Introduction}
+
+\begin{frame}{Introduction}
+  \begin{itemize}
+    \item 2 relative clause strategies in Tagalog (Austronesian)
+    \item Distinguished by element mediating between head and modifier
+  \end{itemize}
+
+  \pause
+
+  \ex\begingl
+      \gla  {[} @ bata]\texthl{=ng} [ @ uminom ng tubig @ ]//
+      \glb  child=\Lk{} drank.\Av{} \Gen{} water//
+      \glft `child who drank water'
+            \trailingcitation{Linker RC}//
+    \endgl
+  \xe
+  \ex~\begingl
+      \gla  {[} @ palengke] \texthl{kung} [ @ \texthl{saan} bumili ang guro ng isda @ ]//
+      \glb  market \textsc{kung} where bought.\Av{} \Nom{} teacher \Gen{} fish//
+      \glft `market where the teacher bought fish'
+            \trailingcitation{\textit{Kung} RC}//
+    \endgl
+  \xe
+
+  \pause
+
+  \begin{table}
+    \begin{tabular}{ll}\toprule
+      \textbf{Linker} & \textit{\textbf{Kung}} \\\midrule
+      Linker \textit{na/=ng} & Complementizer \textit{kung} \\
+      No overt relative pronoun & Overt \textit{wh}-element \\
+      Well-studied & Understudied \\\bottomrule
+    \end{tabular}
+  \end{table}
+\end{frame}
+
+\begin{frame}{Introduction: Goals}
+  \begin{itemize}
+    \item Relatively understudied area of Tagalog syntax
+    \item Initial detailed investigation into the behavior and distribution of relative clauses formed using the \textit{kung} strategy
+    \item Findings:
+    \begin{itemize}
+      \item Linker Strategy and \textit{Kung} Strategy are syntactically distinct strategies for relativization \citep[contra][]{otsuka2016}
+      \item Fairly complex restrictions on what may be targeted by the \textit{kung} strategy
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\section{Background}
+
+\subsection{General Background}
+
+\begin{frame}{Word Order}
+  \begin{itemize}
+    \item Verb initial language
+    \item Elements may appear preverbally with various clausal operations
+  \end{itemize}
+  \ex\begingl
+    \gla  Pumunta si Sara sa opisina.//
+    \glb  went.\Av{} \Nom{} Sara \Obl{} office//
+    \glft `Sara went to the office.'
+          \trailingcitation{Verb-initial sentence}//
+  \endgl
+  \xe
+  \ex\begingl
+    \gla  Si Sara ay pumunta sa opisina.//
+    \glb  \Nom{} Sara \g{ay} went.\Av{} \Obl{} office//
+    \glft `As for Sara, she went to the office.'
+          \trailingcitation{\textit{Ay}-topicalization}//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Case Marking}
+\begin{itemize}
+  \item \texthl{\textit{ang}} (Nominative)\\
+    Syntactically prominent clausal dependent
+  \item \texthl{\textit{ng}} (Genitive)\\
+    Non-nominative core arguments (also possessors)
+  \item \texthl{\textit{sa}} (Oblique)\\
+    ``Peripheral'' arguments and adjuncts
+\end{itemize}
+
+\ex\begingl
+  \gla  Kumain ang lalaki ng mangga sa kusina.//
+  \glb  ate.\Av{} \Nom{} man \Gen{} mango \Obl{} kitchen//
+  \glft `The man ate a mango in the kitchen.'//
+\endgl
+\xe
+\end{frame}
+
+\begin{frame}{Voice}
+  \begin{itemize}
+    \item Case marking correlates with verbal morphology (=voice)
+  \end{itemize}
+  \ex\begingl
+    \gla  K\texthl{\ix{um}}ain \texthl{ang} \texthl{lalaki} ng mangga sa kusina.//
+    \glb  \ix{\Av}ate \Nom{} man \Gen{} mango \Obl{} kitchen//
+    \glft `The man ate a mango in the kitchen.'
+          \trailingcitation{Agent Voice}//
+  \endgl
+  \xe
+  \ex~\begingl
+    \gla  K\texthl{\ix{in}}ain ng lalaki \texthl{ang} \texthl{mangga} sa kusina.//
+    \glb  \ix{\Pv}ate \Gen{} man \Nom{} mango \Obl{} kitchen//
+    \glft `The man ate a mango in the kitchen.'
+          \trailingcitation{Patient Voice}//
+  \endgl
+  \xe
+  \ex~\begingl
+    \gla  K\texthl{\ix{in}}ain-\texthl{an} ng lalaki ng mangga \texthl{ang} \texthl{plato}.//
+    \glb  \ix{\Pfv}eat-\Lv{} \Gen{} man \Gen{} mango \Nom{} plate//
+    \glft `The man ate a mango from the plate.'
+          \trailingcitation{Locative Voice}//
+  \endgl
+  \xe
+\end{frame}
+
+
+\subsection{Linker Relative Clause Basics}
+
+\begin{frame}{Possible Positions to Target}
+  \begin{alertblock}{Austronesian Extraction Restriction}
+    Only the nominative position can be targeted
+  \end{alertblock}
+  \ex\begingl
+    \gla  Kumain \texthl{ang} \texthl{lalaki} ng mangga sa kusina.//
+    \glb  ate.\Av{} \Nom{} man \Gen{} mango \Obl{} kitchen//
+    \glft `The man ate a mango in the kitchen.'
+          \trailingcitation{\textit{Baseline Sentence}}//
+  \endgl
+  \xe\vspace{-1em}\pause
+  \pex~
+  \a\begingl
+    \gla  \texthl{lalaki}=ng [ @ kumain ng mangga sa kusina]//
+    \glb  man=\Lk{} ate.\Av{} \Gen{} mango \Obl{} kitchen//
+    \glft `man who ate mango in the kitchen'//
+  \endgl
+  \a\ljudge{*}\begingl
+    \gla  mangga=ng [ @ kumain \texthl{ang} \texthl{lalaki} sa kusina]//
+    \glb  mango=\Lk{} ate.\Av{} \Nom{} man \Obl{} kitchen//
+    \glft (Intended: `mango that the man ate in the kitchen')//
+  \endgl
+  \a\ljudge{*}\begingl
+    \gla  kusina=ng [ @ kumain \texthl{ang} \texthl{lalaki} ng mangga]//
+    \glb  kitchen=\Lk{} ate.\Av{} \Nom{} man \Gen{} mango//
+    \glft (Intended: `kitchen where the man ate a mango')//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Possible Positions to Target}
+  \begin{itemize}
+    \item Relativizing other positions requires a change in voice
+  \end{itemize}
+  \ex\begingl
+    \gla  Kinain ng lalaki \texthl{ang} \texthl{mangga} sa kusina.//
+    \glb  ate.\Pv{} \Gen{} man \Nom{} mango \Obl{} kitchen//
+    \glft `The man ate the mango in the kitchen.'
+          \trailingcitation{\textit{Baseline Sentence}}//
+  \endgl
+  \xe\vspace{-1em}\pause
+  \pex~
+  \a\ljudge{??}\begingl
+    \gla  lalaki=ng [ @ kinain \texthl{ang} \texthl{mangga} sa kusina]//
+    \glb  man=\Lk{} ate.\Pv{} \Nom{} mango \Obl{} kitchen//
+    \glft (Intended: `man who ate the mango in the kitchen')//
+  \endgl
+  \a\begingl
+    \gla  \texthl{mangga}=ng [ @ kinain ng lalaki sa kusina]//
+    \glb  mango=\Lk{} ate.\Pv{} \Gen{} man \Obl{} kitchen//
+    \glft `mango that the man ate in the kitchen'//
+  \endgl
+  \a\ljudge{*}\begingl
+    \gla  kusina=ng [ @ kinain ng lalaki \texthl{ang} \texthl{mangga}]//
+    \glb  kitchen=\Lk{} ate.\Pv{} \Gen{} man \Nom{} mango//
+    \glft (Intended: `kitchen where the man ate the mango')//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Word Order}
+  \begin{itemize}
+    \item Basic word order is head-initial, and the head may be omitted
+    \item Relative clause head may also appear after or within the RC modifier \citep{aldridge2003,aldridge2017}
+  \end{itemize}
+  \pex
+  \a\begingl
+    \gla  ang \nogloss{(} @ \texthl{mangga}=ng) [ @ kinain ng lalaki]//
+    \glb  \Nom{} mango=\Lk{} ate.\Pv{} \Gen{} man \Gen{} mango//
+    \glft `the \{mango/one\} that the man ate'
+          \trailingcitation{Head-initial/Headless}//
+  \endgl
+  \a\begingl
+    \gla  ang [ @ kinain ng lalaki]=ng \texthl{mangga}//
+    \glb  \Nom{} ate.\Pv{} \Gen{} man=\Lk{} mango//
+    \glft `the mango that the man ate'
+          \trailingcitation{Head-final}//
+  \endgl
+  \a\begingl
+    \gla  ang [ @ kinain=g \texthl{mangga} ng lalaki]//
+    \glb  \Nom{} ate.\Pv=\Lk{} mango \Gen{} man//
+    \glft `the mango that the man ate'
+          \trailingcitation{Head-internal}//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Interim Summary}
+  \begin{table}
+    \begin{tabular}{lll}\toprule
+                    & Linker RC & \textit{Kung} RC\\\midrule
+      Rel. Pronoun  & None/Not overt \\
+      Can target    & Only Nominative \\
+      Word order    & Relatively free \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+\end{frame}
+
+
+\section[Kung RC Basics]{Kung Relative Clause Basics}
+
+\begin{frame}{\textit{Kung} Relative Clause Basics}
+  \begin{itemize}
+    \item Targets non-DP positions (neither \textit{ang}- nor \textit{ng}-marked)
+    \item Overt \textit{wh}-element corresponds to the role of the targeted position
+  \end{itemize}
+  \ex\begingl
+    \gla  Kumain ang lalaki ng mangga \texthl{sa} \texthl{kusina}.//
+    \glb  ate.\Av{} \Nom{} man \Gen{} mango \Obl{} kitchen//
+    \glft `The man ate a mango in the kitchen.'
+          \trailingcitation{\textit{Baseline Sentence}}//
+  \endgl
+  \xe\vspace{-1em}\pause
+  \ex~\begingl
+    \gla  \texthl{kusina} kung [ @ \texthl{saan} kumain ang lalaki ng mangga]//
+    \glb  kitchen \g{kung} where ate.\Av{} \Nom{} man \Gen{} mango//
+    \glft `kitchen where the man ate a mango'//
+  \endgl
+  \xe
+  \ex~[glspace=!-0.25ex]\ljudge{*}\begingl
+    \gla  \texthl{kusina} kung [ @ \texthl{ano} (ang) kumain ang lalaki ng mangga]//
+    \glb  kitchen \g{kung} what \Nom{} ate.\Av{} \Nom{} man \Gen{} mango//
+    \glft (Intended: `kitchen where the man ate a mango')//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Word Order}
+  \begin{itemize}
+    \item Unlike Linker RCs, \textit{kung} RCs exhibit no word order flexibility
+    \item Only the head-initial word order is possible
+    \item Below are a few attempts, a more exhaustive list of possibilities is left out for reasons of space
+  \end{itemize}
+  \ex[glspace=!-0.5ex]\begingl
+    \gla  ang @ \nogloss{*(} @ \texthl{kusina}) kung [ @ \texthl{saan} kumain ang lalaki ng mangga]//
+    \glb  \Nom{} kitchen \g{kung} where ate.\Av{} \Nom{} man \Gen{} mango//
+    \glft `kitchen where the man ate a mango'//
+  \endgl
+  \xe
+  \ex~[glspace=!-0.5ex]\ljudge{*}\begingl
+    \gla  ang kung [ @ \texthl{saan} kumain ang lalaki ng mangga](=ng) \texthl{kusina}//
+    \glb  \Nom{} \g{kung} where ate.\Av{} \Nom{} man \Gen{} mango=\Lk{} kitchen//
+  \endgl
+  \xe
+  \ex~[glspace=!-0.5ex]\ljudge{*}\begingl
+    \gla  ang [ @ \texthl{saan} kumain ang lalaki ng mangga] kung \texthl{kusina}//
+    \glb  \Nom{} where ate.\Av{} \Nom{} man \Gen{} mango \g{kung} kitchen//
+    \glft (Intended: `kitchen where the man ate a mango')//
+  \endgl
+  \xe
+
+\end{frame}
+
+\section[Kung RC Restrictions]{Restrictions on Kung Relative Clauses}
+\subsection{Restriction to non-DPs}
+
+\begin{frame}
+  \begin{alertblock}{Necessary Condition}
+    Morphological non-DP-hood is a necessary condition for targets of \textit{kung} relativization;
+    No \textit{ang}- or \textit{ng}-marked positions may be targeted by \textit{kung} relativization
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}
+  \begin{itemize}
+    \item \emph{Only} targets non-DP positions; i.e., neither \textit{ang}- nor \textit{ng}-marked \citep{otsuka2016}
+  \end{itemize}
+  \ex\begingl
+    \gla  Kumain ang lalaki ng mangga \texthl{sa} \texthl{kusina}.//
+    \glb  ate.\Av{} \Nom{} man \Gen{} mango \Obl{} kitchen//
+    \glft `The man ate a mango in the kitchen.'
+          \trailingcitation{\textit{Baseline Sentence}}//
+  \endgl
+  \xe
+  \ex~\ljudge{*}\begingl
+    \gla  lalaki kung [ @ sino kumain ng mangga \texthl{sa} \texthl{kusina}]//
+    \glb  man=\Lk{} \g{kung} who ate.\Av{} \Gen{} mango \Obl{} kitchen//
+    \glft (Intended: `man who ate mango in the kitchen')//
+  \endgl
+  \xe
+  \ex~\ljudge{*}\begingl
+    \gla  mangga kung [ @ ano kumain ang lalaki \texthl{sa} \texthl{kusina}]//
+    \glb  mango \g{kung} what ate.\Av{} \Nom{} man \Obl{} kitchen//
+    \glft (Intended: `mango that the man ate in the kitchen')//
+  \endgl
+  \xe
+  \ex~\begingl
+    \gla  \texthl{kusina} kung [ @ saan kumain ang lalaki ng mangga]//
+    \glb  kitchen \g{kung} where ate.\Av{} \Nom{} man \Gen{} mango//
+    \glft `kitchen where the man ate a mango'//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}%{Restriction to non-DPs}
+  \begin{itemize}
+    \item Same positions may be targeted with different voice marking...
+  \end{itemize}
+  \ex\begingl
+    \gla  Kinain ng lalaki ang mangga \texthl{sa} \texthl{kusina}.//
+    \glb  ate.\Pv{} \Gen{} man \Nom{} mango \Obl{} kitchen//
+    \glft `The man ate a mango in the kitchen.'
+          \trailingcitation{\textit{Baseline Sentence}}//
+  \endgl
+  \xe
+  \ex~\begingl
+    \gla  \texthl{kusina} kung [ @ saan kinain ng lalaki ang mangga]//
+    \glb  kitchen \g{kung} where ate.\Pv{} \Gen{} man \Nom{} mango//
+    \glft `kitchen where the man ate a mango'//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}%{Restriction to non-DPs}
+  \begin{itemize}
+    \item ...but not if the relevant position becomes \textit{ang}-marked via voice morphology
+  \end{itemize}
+  \ex\begingl
+    \gla  K\texthl{\ix{in}}ain-\texthl{an} ng lalaki ng mangga \texthl{ang} \texthl{plato}.//
+    \glb  \ix{\Pfv}eat-\Lv{} \Gen{} man \Gen{} mango \Nom{} plate//
+    \glft `The man ate a mango from the plate.'//
+    \endgl
+  \xe
+  \ex~\ljudge{*}\begingl
+    \gla  \texthl{plato} kung [ @ saan/ano k\texthl{\ix{in}}ain-\texthl{an} ng lalaki ng mangga]//
+    \glb  plate \g{kung} where/what \ix{\Pfv}eat-\Lv{} \Gen{} man \Gen{} mango//
+    \glft (Intended: `plate that the man ate a mango from')//
+    \endgl
+  \xe\vspace{-1em}\pause
+  \ex~\begingl
+    \gla  \texthl{plato}=ng [ @ k\texthl{\ix{in}}ain-\texthl{an} ng lalaki ng mangga]//
+    \glb  plate=\Lk{} \ix{\Pfv}eat-\Lv{} \Gen{} man \Gen{} mango//
+    \glft `plate that the man ate a mango from'
+          \trailingcitation{(Grammatical Linker RC)}//
+  \endgl
+  \xe
+\end{frame}
+
+\subsection{Further Restrictions}
+
+\begin{frame}{Adjuncts vs Arguments}
+  \begin{itemize}
+    \item Adjunct/Argument status does not determine targetability for relativization
+    \item Locative argument of \glp{naglagay}{put (AV)} is also relativized using a \textit{kung} RC
+  \end{itemize}
+  \ex\begingl
+    \gla  Naglagay si Gina ng pera \nogloss{*(} @ \texthl{sa} \texthl{lamesa}).//
+    \glb  put.\Av{} \Nom{} Gina \Gen{} money \Obl{} table//
+    \glft `Gina put some money on the table.'//
+  \endgl
+  \xe
+  \ex\begingl
+    \gla  \texthl{lamesa} kung [ @ saan naglagay si Gina ng pera]//
+    \glb  table \g{kung} where put.\Av{} \Nom{} Gina \Gen{} money \Obl{} table//
+    \glft `table where Gina put some money'//
+  \endgl
+  \xe\vspace{-1em}\pause
+  \ex\ljudge{*}\begingl
+    \gla  \texthl{lamesa}=ng [ @ naglagay si Gina ng pera]//
+    \glb  table=\Lk{} put.\Av{} \Nom{} Gina \Gen{} money \Obl{} table//
+    \glft (Intended: `table where Gina put some money')
+          \trailingcitation{Ungrammatical Linker RC}//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Semantic Restrictions}
+  \begin{itemize}
+    \item Commonly, reasons and times may also be relativized with the \textit{kung} strategy
+    \item (Note lack of oblique marker \textit{sa})
+  \end{itemize}
+  \ex\begingl
+    \gla  Umalis si Maria \texthl{dahil} \texthl{masama} \texthl{ang} \texthl{pakiramdam} \texthl{niya}.//
+    \glb  left.\Av{} \Nom{} Maria because bad \Nom{} feeling \Niya{}//
+    \glft `Maria left because she was feeling unwell.'
+          \trailingcitation{\textit{Baseline}}//
+  \endgl
+  \xe
+  \ex\begingl
+    \gla  ang \texthl{dahilan} kung [ @ bakit umalis si Maria]//
+    \glb  \Nom{} reason \g{kung} why left.\Av{} \Nom{} Maria//
+    \glft `the reason why Maria left'//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Semantic Restrictions}
+  \begin{itemize}
+    \item Commonly, reasons and times may also be relativized with the \textit{kung} strategy
+  \end{itemize}
+  \ex\begingl
+    \gla  Ang lahat ay maaari natin=g maangkin \texthl{sa} \texthl{susunod} \texthl{na} \texthl{taon}.//
+    \glb  \Nom{} all \Ay{} can \Natin=\Lk{} possess.\Pv{} \Obl{} following \Lk{} year//
+    \glft `Everything can be ours in the next year.'
+          \trailingcitation{\textit{Baseline}}//
+  \endgl
+  \xe
+  \ex\begingl
+    \gla  ang \texthl{panahon} kung [ @ kailan ang lahat ay maaari natin=g maangkin]//
+    \glb  \Nom{} time \g{kung} when \Nom{} all \Ay{} can \Natin=\Lk{} possess.\Pv{}//
+    \glft `The time when we can have everything'
+          \trailingcitation{{\citep[modified from][]{sabbagh2013}}}//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Semantic Restrictions}
+  \begin{itemize}
+    \item In contrast, there is some variation for the acceptability of \textit{kung} RCs targeting humans/individuals
+    \item Currently unclear to what extent the variation is by construction or by speaker
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Semantic Restrictions}
+  \begin{itemize}
+    \item Recipient argument of \glp{ibinigay}{gave (CV)} \uline{cannot} use the \textit{kung} strategy
+  \end{itemize}
+  \ex\begingl
+    \gla  Ibinigay ni Tina ang regalo \texthl{sa} \texthl{babae}.//
+    \glb  gave.\Cv{} \Gen{} Tina \Nom{} gift \Obl{} woman//
+    \glft `Tina gave the gift to the woman.'
+          \trailingcitation{\textit{Baseline}}//
+  \endgl
+  \xe
+  \ex\ljudge{*}\begingl
+    \gla  ang \texthl{babae} kung [ @ \{kanino/saan\} ibinigay ni Tina ang regalo]//
+    \glb  \Nom{} woman \g{kung} who.\Obl{}/where gave.\Cv{} \Gen{} Tina \Nom{} gift//
+    \glft (Intended: `the woman who Tina gave the gift to')//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Semantic Restrictions}
+  \begin{itemize}
+    \item Source argument of \glp{natuto}{learned (PV)} \uline{can} use the \textit{kung} strategy (at least for some speakers)
+  \end{itemize}
+
+  \ex\begingl
+    \gla  Natuto si Julian ng Ilokano kay Bb. dela Cruz.//
+    \glb  learned.\Pv{} \Nom{} Julian \Gen{} Ilokano \Obl{} Ms. dela Cruz//
+    \glft `Julian learned Ilokano from Ms. dela Cruz.'
+          \trailingcitation{\textit{Baseline}}//
+  \endgl
+  \xe
+  \ex\ljudge{?}\begingl
+    \gla  ang \texthl{guro} kung [ @ kanino natuto si Julian ng Ilokano]//
+    \glb  \Nom{} woman \g{kung} who.\Obl{} learned.\Pv{} \Nom{} Julian \Gen{} Ilokano//
+    \glft `the teacher who Julian learned Ilokano from'//
+  \endgl
+  \xe
+\end{frame}
+
+\subsection{More Morphosyntactic Restrictions}
+
+\begin{frame}{No Complex \textit{Wh}-Elements}
+  \begin{itemize}
+    \item \textit{Kung} Relative Clauses cannot be formed with complex \textit{wh}-elements
+  \end{itemize}
+
+  \ex\begingl
+    \gla  Nag-usap ang mga guro \texthl{tungkol} \texthl{sa} \texthl{giyera}.//
+    \glb  spoke.\Av{} \Nom{} \Pl{} teacher about \Obl{} war//
+    \glft `The teachers spoke about the war.'
+          \trailingcitation{\textit{Baseline}}//
+  \endgl
+  \xe
+  \ex~\ljudge{*}\begingl
+    \gla  ang \texthl{giyera} kung \nogloss{[(} @ \textbf{tungkol}) \textbf{saan} nag-usap ang mga guro]//
+    \glb  \Nom{} war \g{kung} about what.\Obl{} spoke.\Av{} \Nom{} \Pl{} teacher//
+    \glft (Intended: `the war that the teachers spoke about')//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{No Complex \textit{Wh}-Elements}
+  \begin{itemize}
+    \item \textit{Kung} Relative Clauses cannot be formed with complex \textit{wh}-elements
+  \end{itemize}
+
+  \ex\begingl
+    \gla  Bumili si Kiko ng sapatos \texthl{para} \texthl{sa} \texthl{bata}.//
+    \glb  bought.\Av{} \Nom{} Kiko \Gen{} shoe for \Obl{} child//
+    \glft `Kiko bought shoes for the child.'
+          \trailingcitation{\textit{Baseline}}//
+  \endgl
+  \xe
+  \ex~\ljudge{*}\begingl
+    \gla  ang \texthl{bata} kung \nogloss{[(} @ \textbf{para}) \textbf{kanino} bumili si Kiko ng sapatos]//
+    \glb  \Nom{} child \g{kung} for who.\Obl{} bought.\Av{} \Nom{} Kiko \Gen{} shoe//
+    \glft (Intended: `the child for whom Kiko bought shoes')//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{No Complex \textit{Wh}-Elements}
+  \begin{itemize}
+    \item Often, these relative clauses are constructed using the linker strategy with the corresponding voice form
+  \end{itemize}
+  \ex\begingl
+    \gla  ang giyera=ng [ @ \textbf{pinag-usapan} ng mga guro]//
+    \glb  \Nom{} war=\Lk{} spoke.\g{rfv} \Gen{} \Pl{} teacher//
+    \glft `the war that the teachers spoke about'//
+  \endgl
+  \xe
+  \ex\begingl
+    \gla  ang bata=ng [ @ \textbf{binilhan} ni Kiko ng sapatos]//
+    \glb  \Nom{} child=\Lk{} bought.\Lv{} \Gen{} Kiko \Gen{} shoe//
+    \glft `the child for whom Kiko bought shoes'//
+  \endgl
+  \xe
+\end{frame}
+
+\section{Summary and Conclusion}
+
+\begin{frame}{Summary}
+  \begin{table}
+    \begin{tabular}{lll}\toprule
+                    & Linker RC         & \textit{Kung} RC \\\midrule
+      Rel. Pronoun  & None/Not overt    & Overt \\
+      Can target    & Only Nominative   & \textit{(See below)} \\
+      Word order    & Relatively free   & Rigid \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+
+  \begin{block}{Valid \textit{Kung} RC Targets}
+    \begin{itemize}
+      \item Non-DPs,
+      \item resulting in simplex \textit{wh}-phrases,
+      \item that do not denote individuals/entities (...sometimes)
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Conclusions and Further Work}
+  \begin{itemize}
+    \item \textit{Kung} RCs and Linker RCs exhibit a number of differences that suggest that these are syntactically distinct constructions \citep[contra][]{otsuka2016}, in particular:
+    \begin{itemize}
+      \item word order
+      \item restrictions on application
+    \end{itemize}
+    \item More work is needed to ascertain what can and cannot be relativized with the \textit{kung} strategy
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \centering\Huge
+  Thank You!\\
+  Salamat Po!\\
+
+\end{frame}
+
+\begin{frame}{Bibliography}
+\bibliographystyle{linquiry2}
+\bibliography{Bibliography}
+\end{frame}
+
+\begin{frame}{Apparently Similar Constructions?}
+  \begin{itemize}
+    \item Worth Noting: \textit{kung} also introduces a number of other types of CPs which have overt \textit{wh}-elements: embedded questions, free relatives
+    \item At least for embedded questions, we do not find the same restrictions as \textit{kung} RCs
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Apparently Similar Constructions?}
+  \begin{itemize}
+    \item \textit{Ang}-marked targets
+  \end{itemize}
+  \ex\begingl
+    \gla  Tinanong ko kung [ @ sino ang kumain ng mangga sa kusina].//
+    \glb  asked.\Pv{} \Ko{} \g{kung} who \Nom{} ate.\Av{} \Gen{} mango \Obl{} kitchen//
+    \glft `I asked who ate the mango in the kitchen.'//
+  \endgl
+  \xe
+  \ex~\ljudge{*}\begingl
+    \gla  lalaki kung [ @ sino (ang) kumain ng mangga sa kusina]//
+    \glb  man=\Lk{} \g{kung} who \Nom{} ate.\Av{} \Gen{} mango \Obl{} kitchen//
+    \glft (Intended: `man who ate mango in the kitchen')//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Apparently Similar Constructions?}
+  \begin{itemize}
+    \item Oblique Human Targets
+  \end{itemize}
+  \ex\begingl
+    \gla  Tinanong ko kung [ @ kanino ibinigay ni Tina ang regalo].//
+    \glb  asked.\Pv{} \Ko{} \g{kung} who.\Obl{} gave.\Cv{} \Gen{} Tina \Nom{} gift//
+    \glft `I asked who Tina gave the gift to.'//
+  \endgl
+  \xe
+  \ex\ljudge{*}\begingl
+    \gla  ang babae kung [ @ \{kanino/saan\} ibinigay ni Tina ang regalo]//
+    \glb  \Nom{} woman \g{kung} who.\Obl{}/where gave.\Cv{} \Gen{} Tina \Nom{} gift//
+    \glft (Intended: `the woman who Tina gave the gift to')//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Apparently Similar Constructions?}
+  \begin{itemize}
+    \item Complex \textit{wh}-elements
+  \end{itemize}
+  \ex\begingl
+    \gla  Tinanong ko kung [ @ para kanino bumili si Kiko ng sapatos]//
+    \glb  asked.\Pv{} \Ko{} \g{kung} for who.\Obl{} bought.\Av{} \Nom{} Kiko \Gen{} shoe//
+    \glft `I asked who Kiko bought shoes for.'//
+  \endgl
+  \xe
+  \ex~\ljudge{*}\begingl
+    \gla  ang bata kung \nogloss{[(} @ para) kanino bumili si Kiko ng sapatos]//
+    \glb  \Nom{} child \g{kung} for who.\Obl{} bought.\Av{} \Nom{} Kiko \Gen{} shoe//
+    \glft (Intended: `the child for whom Kiko bought shoes')//
+  \endgl
+  \xe
+\end{frame}
+
+\begin{frame}{Apparently Similar Constructions?}
+  \begin{itemize}
+    \item \textit{Kung} RC may contain another instance of inversion
+    \item Emdedded \textit{wh}-questions cannot
+  \end{itemize}
+  \ex\ljudge{*?}\begingl
+    \gla  Tinanong ko kung [ @ kailan ang lahat ay maaari natin=g maangkin]//
+    \glb  asked.\Pv{} \Ko{} \g{kung} when \Nom{} all \Ay{} can \Natin=\Lk{} possess.\Pv{}//
+    \glft `I asked when everything can be ours.'//
+  \endgl
+  \xe
+  \ex~\begingl
+    \gla  ang panahon kung [ @ kailan ang lahat ay maaari natin=g maangkin]//
+    \glb  \Nom{} time \g{kung} when \Nom{} all \Ay{} can \Natin=\Lk{} possess.\Pv{}//
+    \glft `The time when we can have everything'
+          \trailingcitation{{\citep[modified from][]{sabbagh2013}}}//
+  \endgl
+  \xe
+\end{frame}
+
+\end{document}
