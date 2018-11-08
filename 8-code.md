@@ -18,3 +18,4 @@ Here are some of the source files for previous presentations of mine, if you're 
 All files are provided as is, and may or may not compile totally correctly on your machine.
 - [Bibliography.bib](/files/latex/Bibliography.bib): Not technically necessary to compile the other files, but you need this if you want the citations in the other files to compile properly.
 - [SEALS 28 Slides](/files/latex/seals28-slides.tex): Slides for my SEALS 28 presentation ([Output PDF](/files/latex/seals28-slides.pdf))
+- [Overleaf file](https://www.overleaf.com/read/nqcbtwcnmvmk): Document that was projected during the LaTeX workshop co-hosted my McGill SLUM and Concordia LSA (07 Nov 2018)
