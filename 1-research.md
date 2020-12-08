@@ -6,6 +6,12 @@ permalink: /research/
 
 [Download my full CV (pdf)]({{ "files/hsieh-cv.pdf" | relative_url }})
 
+# Dissertation
+  **2020**.
+  Beyond Nominative: A broader view of Tagalog A'-dependencies.
+  McGill University.
+  ([pdf](/files/thesis-pdfx.pdf))
+
 # Publications
 {% for pub in site.data.publications %}
 - **{{ pub.year }}.**

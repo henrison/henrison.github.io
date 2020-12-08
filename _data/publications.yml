@@ -8,8 +8,15 @@
 #   link:
 #     - text:
 #       url:
+- year: 2020
+  title: 'On the structure of Tagalog non-DP extraction'
+  venue: Proceedings of AFLA 26
+  pages: 124-141
+  link:
+    - text: link
+      url: https://ir.lib.uwo.ca/afla/aflaxxvi/meeting/8/
 
-- year: '2018'
+- year: 2018
   title: 'Distinguishing nouns and verbs: A Tagalog case study'
   journal: true
   venue: Natural Language and Linguistic Theory
@@ -36,7 +43,7 @@
   pages: 75-94
   link:
     - text: link
-      url: https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/27.75/3837
+      url: https://doi.org/10.3765/salt.v27i0.4132
 
 - year: 2016
   title: 'Prosodic indicators of phrase structure in Tagalog transitive sentences'
