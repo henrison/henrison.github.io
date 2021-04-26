@@ -13,7 +13,7 @@ Potentially confusing is also the fact that my first name is not a patronymic;
 as far as I know, I do not have any ancestors who I might be named after.
 
 By far, however, I seem to get more questions about my last name.
-My last name is easy if you know how to say "Thank you" in Mandarin Chinese (謝謝/谢谢) because it is simply the unreduplicated form of that expression.
+My last name is easy if you know how to say "Thank you" in Mandarin (謝謝/谢谢) because it is simply the unreduplicated form of that expression.
 In Mandarin, it's pronounced <span class="text-ipa">[ɕie]</span>, but <span class="text-ipa">[ʃjɛ]</span>, <span class="text-ipa">[sjɛ]</span>, or <span class="text-ipa">[ʃɛ]</span> are fine approximations in English.
 To those unfamiliar with IPA, I usually say: "Shh" followed by a "Yeah".
 In a pinch, you could also say "Shay" <span class="text-ipa">[ʃej]</span>.

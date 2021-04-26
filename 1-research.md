@@ -10,7 +10,8 @@ permalink: /research/
   **2020**.
   Beyond Nominative: A broader view of Tagalog A'-dependencies.
   McGill University.
-  ([pdf](/files/thesis-pdfx.pdf))
+  ([pdf](/files/thesis-pdfx.pdf),
+    [lingbuzz](https://lingbuzz.net/lingbuzz/005856))
 
 # Publications
 {% for pub in site.data.publications %}
