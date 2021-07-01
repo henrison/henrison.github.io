@@ -21,12 +21,12 @@ permalink: /research/
   {% endif -%}
   {{ pub.title }}.
   {% unless pub.journal -%} In {% endunless -%}
-  *{{ pub.venue }}*
+  *{{ pub.venue }}*{% if pub.volume %} {{ pub.volume }}{% endif %}
   {%- if pub.pages -%}, pp. {{ pub.pages }}{%- endif -%}.
-  ({%- for l in pub.link -%}
+  {% if pub.link %}({%- for l in pub.link -%}
     [{{ l.text }}]({{ l.url }})
     {%- if forloop.last == false %}; {% endif -%}
-  {% endfor -%})
+  {% endfor -%}){% endif %}
 {% endfor %}
 
 

@@ -4,21 +4,22 @@ title: My name
 permalink: /name/
 ---
 
+I pronounce my name <span class="text-ipa">['hɛnrɪsən 'ʃjɛ]</span>.
 
 # If you're curious:
 
-I pronounce my first name <span class="text-ipa">[ˈhɛnrɪsən]</span>, which is kind of like "Henry" with a suffix "-son".
-People sometimes mishear my name as "Harrison" or "Henderson", but those are not my names.
+My first name can be thought of like "Henry" with a suffix "-son".
+Common mishearings of my name include "Harrison" or "Henderson".
 Potentially confusing is also the fact that my first name is not a patronymic;
 as far as I know, I do not have any ancestors who I might be named after.
 
 By far, however, I seem to get more questions about my last name.
-My last name is easy if you know how to say "Thank you" in Mandarin (謝謝/谢谢) because it is simply the unreduplicated form of that expression.
+It's easy if you know how to say "Thank you" in Mandarin (謝謝/谢谢) because it is simply the unreduplicated form of that expression.
 In Mandarin, it's pronounced <span class="text-ipa">[ɕie]</span>, but <span class="text-ipa">[ʃjɛ]</span>, <span class="text-ipa">[sjɛ]</span>, or <span class="text-ipa">[ʃɛ]</span> are fine approximations in English.
 To those unfamiliar with IPA, I usually say: "Shh" followed by a "Yeah".
 In a pinch, you could also say "Shay" <span class="text-ipa">[ʃej]</span>.
 
-The spelling I ended up with comes from the Wade-Giles romanization system, which used to be the standard for scholarly work on Mandarin Chinese, and is the system generally used by people from Taiwan (where part of my family is from) to romanize their surnames.
+The spelling I ended up with comes from the Wade-Giles romanization system, which used to be the standard for scholarly work on Mandarin Chinese, and is the system generally used by people from Taiwan (where part of my family is from) to romanize their names.
 If my father had come from elsewhere in the Sinosphere, I could have been Henrison Xie, Henrison Tze, or Henrison Sia, to name a few possibilities.
 For further reading, Wikipedia has a page devoted to this surname [here](https://en.wikipedia.org/wiki/Xie_(surname)).
 

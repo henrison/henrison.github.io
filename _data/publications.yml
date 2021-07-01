@@ -4,10 +4,22 @@
 #   title: ''
 #   journal: true
 #   venue:
+#   volume:
 #   pages:
 #   link:
 #     - text:
 #       url:
+- year: accepted
+  coauthor: Luis Alonso-Ovalle
+  title: 'Causes and expectations: On the interpretation of the Tagalog Ability/Involuntary Action form'
+  journal: true
+  venue: Journal of Semantics
+  # volume
+  # pages:
+  # link:
+  #   - text:
+  #     url:
+
 - year: 2020
   title: 'On the structure of Tagalog non-DP extraction'
   venue: Proceedings of AFLA 26
@@ -16,13 +28,14 @@
     - text: link
       url: https://ir.lib.uwo.ca/afla/aflaxxvi/meeting/8/
 
-- year: 2018
+- year: 2019
   title: 'Distinguishing nouns and verbs: A Tagalog case study'
   journal: true
   venue: Natural Language and Linguistic Theory
-  # pages:
+  volume: 37
+  pages: 523-569
   link:
-    - text: "official version"
+    - text: "published version"
       url: http://dx.doi.org/10.1007/s11049-018-9422-3
     - text: "author's accepted ms."
       url: /files/nllt-nv.pdf

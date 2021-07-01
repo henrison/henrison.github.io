@@ -9,6 +9,16 @@
 #   link:
 #     text:
 #     url:
+- date: 2021-05-25
+  date_end: 2021-05-28
+  title: 'Matters of locality in exceptional Tagalog A′-extraction'
+  venue: AFLA 28
+  location: McGill University & National University of Singapore (online)
+  type: talk
+  link: 
+    text: slides
+    url: files/afla28-slides.pdf
+
 - date: 2019-05-24
   date_end: 2019-05-26
   title: 'On the structure of Tagalog non-DP extraction'
