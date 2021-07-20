@@ -9,16 +9,16 @@
 #   link:
 #     - text:
 #       url:
-- year: accepted
+- year: 2021
   coauthor: Luis Alonso-Ovalle
   title: 'Causes and expectations: On the interpretation of the Tagalog Ability/Involuntary Action form'
   journal: true
   venue: Journal of Semantics
-  # volume
+  volume: '[online first]'
   # pages:
-  # link:
-  #   - text:
-  #     url:
+  link:
+    - text: "open access link"
+      url: https://doi.org/10.1093/jos/ffab008
 
 - year: 2020
   title: 'On the structure of Tagalog non-DP extraction'

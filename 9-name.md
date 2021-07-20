@@ -20,8 +20,8 @@ To those unfamiliar with IPA, I usually say: "Shh" followed by a "Yeah".
 In a pinch, you could also say "Shay" <span class="text-ipa">[ʃej]</span>.
 
 The spelling I ended up with comes from the Wade-Giles romanization system, which used to be the standard for scholarly work on Mandarin Chinese, and is the system generally used by people from Taiwan (where part of my family is from) to romanize their names.
-If my father had come from elsewhere in the Sinosphere, I could have been Henrison Xie, Henrison Tze, or Henrison Sia, to name a few possibilities.
-For further reading, Wikipedia has a page devoted to this surname [here](https://en.wikipedia.org/wiki/Xie_(surname)).
+Elsewhere, you might see this family name is romanized as Xie, Tze, Sia, or Seah (to name a few possibilities).
+If you're curious, you can read the relevant page on [Wikipedia](https://en.wikipedia.org/wiki/Xie_(surname)).
 
 
 <!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
