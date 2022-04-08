@@ -2,8 +2,8 @@
 title: Henrison Hsieh
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a linguist working as a postdoctoral fellow at the National University of Singapore.
-  I recently completed my PhD in Linguistics at McGill University, under the supervision of Junko Shimoyama, Lisa Travis, and Jessica Coon.
+  I am a linguist working as a postdoctoral fellow at the Hong Kong Polytechnic University in the Department of Chinese and Bilingual Studies.
+  Previously, I was a postdoctoral fellow National University of Singapore, after having completed my PhD in Linguistics at McGill University, under the supervision of Junko Shimoyama, Lisa Travis, and Jessica Coon.
   My main research interests lie with Tagalog, an Austronesian language spoken in the Philippines, and how it can inform our understanding of syntax and semantics.
 # Previously, I lived in Boston, where I attended Boston University and earned my BA majoring in Linguistics and Computer Science before working at a (now not so) small web startup, Jana Inc.
 # Write an awesome description for your new site here. You can edit this
@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-last_updated: July 2021
+last_updated: April 2022
 # twitter_username: jekyllrb
 github_username:  henrison
 
