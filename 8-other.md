@@ -6,9 +6,9 @@ permalink: /Other/
 Here are some other miscellaneous things that might be of interest!
 
 # Charte montréalaise des droites et responsabilités
-In 2017, I was approached by Prof. James Archibald in the School of Continuing Studies at McGill to help with translating the _Charte montréalaise des droites et responsabilités_ 'Montreal Charter of Rights and Responsibilities' into Tagalog/Filipino, to coincide with Philippine Independence Day that year.
+In 2017, I was approached by Prof. James Archibald in the School of Continuing Studies at McGill to collaborate on translating the _Charte montréalaise des droites et responsabilités_ 'Montreal Charter of Rights and Responsibilities' into Tagalog/Filipino, to coincide with Philippine Independence Day that year.
 
-The Charter, which is available in several languages, can be found on the [City of Montréal website](http://ville.montreal.qc.ca/chartedesdroits).
+The Charter, which is available in several languages, can be found on the [City of Montréal website](https://montreal.ca/en/topics/montreal-charter-rights-and-responsibilities).
 An article with some background on the Charter and the translation appeared in the McGill Reporter (in French): [_Les droits et responsabilités des Montréalais en tagalog (!), langue nationale des Philippines_](https://reporter.mcgill.ca/les-droits-et-responsabilites-des-montrealais-en-tagalog-langue-nationale-des-philippines/).
 
 

@@ -6,12 +6,16 @@ permalink: /research/
 
 [Download my full CV (pdf)]({{ "files/hsieh-cv.pdf" | relative_url }})
 
+You can find a list of my publications and presentations below with relevant links to the paper or handout/slides, where available.
+Please feel free to email me if there is something you're looking for that is not listed here below!
+
 # Dissertation
-  **2020**.
+  **2020.**
   Beyond Nominative: A broader view of Tagalog A'-dependencies.
-  McGill University.
+  McGill University.\\
   ([pdf](/files/thesis-pdfx.pdf),
-    [lingbuzz](https://lingbuzz.net/lingbuzz/005856))
+    [lingbuzz](https://lingbuzz.net/lingbuzz/005856),
+    [eScholarship@McGill](https://escholarship.mcgill.ca/concern/theses/2z10ww16v))
 
 # Publications
 {% for pub in site.data.publications %}
