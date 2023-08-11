@@ -9,6 +9,16 @@
 #   link:
 #     text:
 #     url:
+- date: 2023-07-14
+  title: 'On Tagalog *na* ‘already,’ *lang* ‘only,’ and *na lang* ‘instead’'
+  coauthor: Michael Yoshitaka Erlewine
+  venue: Workshop on ‘already’ markers, iamitives, & related expressions
+  location: Online
+  type: talk
+  link:
+    text: slides
+    url: files/iamitives-slides.pdf
+
 - date: 2021-05-25
   date_end: 2021-05-28
   title: 'Matters of locality in exceptional Tagalog A′-extraction'
