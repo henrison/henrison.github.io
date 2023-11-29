@@ -9,6 +9,46 @@
 #   link:
 #     text:
 #     url:
+- date: 2023-11-11
+  title: 'Interpreting clitic adverb combinations in Tagalog'
+  coauthor: Michael Yoshitaka Erlewine
+  venue: 2023 NTHU Linguistics Forum
+  location: National Tsing Hua University
+  type: invited talk
+  link:
+    text: handout
+    url: files/nthu-clitics.pdf
+
+- date: 2023-10-20
+  date_end: 2023-10-22
+  title: 'Interpreting clitic adverb combinations in Tagalog'
+  coauthor: Michael Yoshitaka Erlewine
+  venue: AFLA 30
+  location: Lund University
+  type: talk
+  # link:
+  #   text: slides
+  #   url: files/afla30-clitics.pdf
+
+- date: 2023-10-20
+  date_end: 2023-10-22
+  title: 'Tagalog valency morphology and its neutralization'
+  coauthor: Yining Nie
+  venue: AFLA 30
+  location: Lund University
+  type: talk
+  link:
+    text: slides
+    url: files/afla30-valency.pdf
+
+- date: 2023-08-23
+  date_end: 2023-08-25
+  title: 'On the semantics of clitic adverbs and their combinations in Tagalog'
+  coauthor: Michael Yoshitaka Erlewine
+  venue: 15th Philippine Linguistics Congress
+  location: University of the Philippines Diliman
+  type: talk
+
 - date: 2023-07-14
   title: 'On Tagalog *na* ‘already,’ *lang* ‘only,’ and *na lang* ‘instead’'
   coauthor: Michael Yoshitaka Erlewine
@@ -122,7 +162,7 @@
   type: talk
   link:
     text: handout
-    url: /files/afla-prosody-handout.pdf
+    url: files/afla-prosody-handout.pdf
 
 - date: 2016-05-26
   date_end: 2016-05-28
@@ -132,7 +172,7 @@
   type: talk
   link:
     text: handout
-    url: /files/seals-nv.pdf
+    url: files/seals-nv.pdf
 
 - date: 2016-02-05
   date_end: 2016-02-07
@@ -143,12 +183,12 @@
 
 - date: 2015-04-11
   title: 'Actuality entailments and an additional meaning component'
-  venue: the 8th Toronto–Ottawa–Montreal semantics workshop (TOM)
+  venue: the 8th Toronto–Ottawa–Montreal semantics workshop (TOM 8)
   location: Carleton University, Ottawa
   type: talk
   link:
     text: handout
-    url: /files/tom-ae.pdf
+    url: files/tom-ae.pdf
 
 - date: 2014-10-31
   date_end: 2014-11-02
