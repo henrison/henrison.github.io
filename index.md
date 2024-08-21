@@ -10,13 +10,12 @@ My dissertation investigates the structure and distribution of A'-dependencies (
 
 My work primarily draws on elicitation and fieldwork data from native speaker (and my own) judgements, but I am always on the lookout for ways to incorporate larger amounts of data using experimental and/or computational methods.
 
-You can contact me via email at **henrison [dot] hsieh [at] polyu [dot] edu [dot] hk**.
+You can contact me via email at **henrison [æt] mx [dot] nthu [dot] edu [dot] tw**.
 
 ## Recent and upcoming
+- August 2024: I have joined the Institute of Linguistics at National Tsing Hua University (NTHU) in Taiwan as an assistant professor!
 - November 2023: My paper entitled [_Observations on Tagalog Genitive Extraction_](https://doi.org/10.1353/ol.2023.a913560) has been published in Oceanic Linguistics
 - March 2023: My paper entitled [_Locality in Exceptional Tagalog A'-extraction_](https://doi.org/10.1162/ling_a_00505) is now available as <s>a "Just Accepted"</s> an "Early Access" paper through Linguistic Inquiry
-- March 2022: I have joined the Department of [Chinese and Bilingual Studies](https://www.polyu.edu.hk/cbs/) at Hong Kong PolyU, working under [Prof. Yu-Yin Hsu](https://sites.google.com/site/youyinxu/)
-<!-- - July 2021: My paper with [Luis Alonso-Ovalle](http://people.linguistics.mcgill.ca/~luis.alonso-ovalle) in Journal of Semantics entitled [_Causes and expectations: On the interpretation of the Tagalog Ability/Involuntary Action form_](https://doi.org/10.1093/jos/ffab008) has now been published! -->
 
 Last updated: {{ site.last_updated | date: "%b %Y" }}
 
