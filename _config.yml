@@ -1,11 +1,8 @@
 # Site settings
 title: Henrison Hsieh
 # email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  I am an Assistant Professor in Linguistics at National Tsing Hua University in Taiwan.
-  I received my PhD from McGill University under the supervision of Junko Shimoyama, Lisa Travis, and Jessica Coon.
-  Prior to joining NTHU, I previously served as a postdoctoral fellow at the Hong Kong Polytechnic University and the National University of Singapore.
-  My main research interests lie with Tagalog, an Austronesian language spoken in the Philippines, and how it can inform our understanding of syntax and semantics.
+# description: > # means to ignore newlines until "baseurl:"
+description: "Assistant Professor<br>Institute of Linguistics, National Tsing Hua University"
 # Previously, I lived in Boston, where I attended Boston University and earned my BA majoring in Linguistics and Computer Science before working at a (now not so) small web startup, Jana Inc.
 # Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
@@ -18,3 +15,12 @@ github_username:  henrison
 
 # Build settings
 markdown: kramdown
+# Theme page: https://github.com/<remote_theme>
+remote_theme: pages-themes/slate@v0.2.0
+# remote_theme: pages-themes/dinky@v0.2.0
+# remote_theme: pages-themes/midnight@v0.2.0
+# remote_theme: mmistakes/minimal-mistakes@4.26.2
+plugins:
+  # - jekyll-include-cache # used with minimal-mistakes
+  - jekyll-remote-theme
+  - jekyll-feed

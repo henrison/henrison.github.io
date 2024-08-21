@@ -4,7 +4,10 @@ title: Home
 ---
 
 # Welcome!
-{{ site.description }}
+I am an Assistant Professor in Linguistics at National Tsing Hua University in Taiwan.
+I received my PhD from McGill University under the supervision of Junko Shimoyama, Lisa Travis, and Jessica Coon.
+Prior to joining NTHU, I previously served as a postdoctoral fellow at the Hong Kong Polytechnic University and the National University of Singapore.
+My main research interests lie with Tagalog, an Austronesian language spoken in the Philippines, and how it can inform our understanding of syntax and semantics.
 
 My dissertation investigates the structure and distribution of A'-dependencies (relative clauses, _wh_-questions, etc.) in Tagalog by considering a wider ranged of data than in previous work.
 

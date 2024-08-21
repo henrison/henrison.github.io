@@ -1,12 +1,14 @@
 ---
-layout: page
+# layout: page
 title: My name
 permalink: /name/
 ---
 
+# My name
+
 I pronounce my name <span class="text-ipa">['hɛnrɪsən 'ʃjɛ]</span>.
 
-# If you're curious:
+## If you're curious:
 
 My first name can be thought of like "Henry" with a suffix "-son".
 Common mishearings of my name include "Harrison" or "Henderson".

@@ -1,15 +1,17 @@
 ---
-layout: page
+# layout: page
 title: Research
 permalink: /research/
 ---
+
+# Research
 
 [Download my full CV (pdf)]({{ "files/hsieh-cv.pdf" | relative_url }})
 
 You can find a list of my publications and presentations below with relevant links to the paper or handout/slides, where available.
 Please feel free to email me if there is something you're looking for that is not listed here below!
 
-# Dissertation
+## Dissertation
   **2020.**
   Beyond Nominative: A broader view of Tagalog A'-dependencies.
   McGill University.\\
@@ -17,7 +19,8 @@ Please feel free to email me if there is something you're looking for that is no
     [lingbuzz](https://lingbuzz.net/lingbuzz/005856),
     [eScholarship@McGill](https://escholarship.mcgill.ca/concern/theses/2z10ww16v))
 
-# Publications
+
+## Publications
 {% for pub in site.data.publications %}
 - **{{ pub.year }}.**
   {% if pub.coauthor -%}
@@ -25,16 +28,16 @@ Please feel free to email me if there is something you're looking for that is no
   {% endif -%}
   {{ pub.title }}.
   {% unless pub.journal -%} In {% endunless -%}
-  *{{ pub.venue }}*{% if pub.volume %} {{ pub.volume }}{% endif %}
+  *{{ pub.venue }}*{% if pub.volume %} {{ pub.volume }}{% endif -%}
   {%- if pub.pages -%}, pp. {{ pub.pages }}{%- endif -%}.
   {% if pub.link %}({%- for l in pub.link -%}
     [{{ l.text }}]({{ l.url }})
     {%- if forloop.last == false %}; {% endif -%}
-  {% endfor -%}){% endif %}
+  {% endfor -%}){% endif -%}
 {% endfor %}
 
 
-# Presentations
+## Presentations
 {% for pres in site.data.presentations %}
 - **{{ pres.date | date: "%Y" }}.**
   {% if pres.coauthor -%}
@@ -54,7 +57,7 @@ Please feel free to email me if there is something you're looking for that is no
   {%- if pres.link -%}
     ; [{{ pres.link.text }}]({{ pres.link.url | relative_url }})
   {%- endif -%})
-{% endfor %}
+{%- endfor %}
 
 
 
