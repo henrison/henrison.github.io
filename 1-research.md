@@ -1,15 +1,13 @@
 ---
-# layout: page
+collection: menu
 title: Research
 permalink: /research/
 ---
 
 # Research
 
-[Download my full CV (pdf)]({{ "files/hsieh-cv.pdf" | relative_url }})
-
 You can find a list of my publications and presentations below with relevant links to the paper or handout/slides, where available.
-Please feel free to email me if there is something you're looking for that is not listed here below!
+Please feel free to email me if there is something you're looking for that is not listed below!
 
 ## Dissertation
   **2020.**

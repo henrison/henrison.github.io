@@ -1,5 +1,5 @@
 ---
-# layout: page
+collection: menu
 title: My name
 permalink: /name/
 ---

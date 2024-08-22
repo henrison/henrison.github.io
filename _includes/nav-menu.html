@@ -1,0 +1,9 @@
+<a class="menu-link" href="{{ site.baseurl }}/">Home</a><br />
+<a class="menu-link" href="{{ "files/hsieh-cv.pdf" | relative_url }}/">CV (pdf)</a><br />
+
+{% for page in site.pages %}
+    {% if page.collection == "menu" %}
+    <a class="menu-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    {%- unless forloop.last %}<br />{% endunless -%}
+    {%- endif -%}
+{%- endfor -%}

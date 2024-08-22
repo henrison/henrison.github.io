@@ -1,5 +1,5 @@
 ---
-# layout: page
+collection: menu
 title: Other
 permalink: /Other/
 ---
