@@ -38,19 +38,12 @@ Please feel free to email me if there is something you're looking for that is no
 ## Presentations
 {% for pres in site.data.presentations %}
 - **{{ pres.date | date: "%Y" }}.**
-  {% if pres.coauthor -%}
-    (with {{ pres.coauthor }})
+  {{ pres.title }}.<br />
+  {%- if pres.coauthor -%}
+    with {{ pres.coauthor }};
   {% endif -%}
-  {{ pres.title }}.
-  Presented at {{ pres.venue }}, {{ pres.location }}, {{ pres.date | date: "%b %-d"}}
-  {%- if pres.date_end -%}--
-    {%- capture start_mo -%}{{pres.date | date: "%b " }}{%- endcapture -%}
-    {%- capture end_mo -%}{{pres.date_end | date: "%b " }}{%- endcapture -%}
-    {%- if start_mo != end_mo -%}
-      {{ end_mo }}
-    {%- endif -%}
-    {{ pres.date_end | date: "%-d" }}
-  {%- endif -%}.
+  @ _{{ pres.venue }}_, {{ pres.location }}.{%- comment -%}
+  {%- endcomment %}
   ({{ pres.type }}
   {%- if pres.link -%}
     ; [{{ pres.link.text }}]({{ pres.link.url | relative_url }})
