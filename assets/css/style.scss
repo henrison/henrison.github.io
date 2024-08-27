@@ -19,7 +19,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: unset;
 }
 
-
 a {
     color: $brand-color;
 }
@@ -28,4 +27,23 @@ a:hover, a:focus {
     color: darken($brand-color, 10%);
     font-weight: unset;
     text-decoration: underline;
+}
+
+.narrow {
+    display: none;
+}
+
+@media print, screen and (max-width: 960px) {
+    header {
+        padding-right: 0;
+    }
+
+    .wide {
+        display: none;
+    }
+    .narrow {
+        display: unset;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
