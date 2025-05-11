@@ -4,14 +4,8 @@ title: Home
 ---
 
 # Welcome!
-I am an Assistant Professor in Linguistics at National Tsing Hua University in Taiwan.
-I received my PhD from McGill University under the supervision of Junko Shimoyama, Lisa Travis, and Jessica Coon.
-Prior to joining NTHU, I previously served as a postdoctoral fellow at the Hong Kong Polytechnic University and the National University of Singapore.
-My main research interests lie with Tagalog, an Austronesian language spoken in the Philippines, and how it can inform our understanding of syntax and semantics.
 
-My dissertation investigates the structure and distribution of A'-dependencies (relative clauses, _wh_-questions, etc.) in Tagalog by considering a wider ranged of data than in previous work.
-
-My work primarily draws on elicitation and fieldwork data from native speaker (and my own) judgements, but I am always on the lookout for ways to incorporate larger amounts of data using experimental and/or computational methods.
+My name is Thanh Viet Cao (Vietnamese: Cao Thành Việt). I am a seventh-year PhD candidate at the Graduate Institute of Linguistics, National Tsing Hua University, Taiwan, under the supervision of Prof. I-Ta Chris Hsieh. Before that, I got both a B.A. and an M.A. in linguistics from the Faculty of Linguistics, University of Social Sciences and Humanities, Vietnam National University (VNU, Hanoi). My main research interests include semantics, pragmatics, and syntax of classifier languages in light of formal approaches, i.e., model-theoretical semantics and comparative syntax within the framework of generative grammar. At the moment, I am preparing for my PhD dissertation oral defense (title: **Quantification and Plurality at the Interface: The case of Vietnamese**), which will be held on May 14th, 2025. My thesis mainly touches upon strategies of universal quantification (involving the four D-quantifiers *tất-cả*, *cả*, *mọi*, and *mỗi*) and plurality (involving *các* and *những*) in Vietnamese from compositional and cross-linguistic perspectives. Besides, language contact among MSEA languages from historical linguistics aspects, especially the historical lexicology (i.e., etymology) of the Vietnamese lexicon, always attracts my attention from time to time.
 
 <!-- Last updated: {{ site.last_updated | date: "%b %Y" }} -->
 
