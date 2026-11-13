@@ -1,0 +1,10 @@
+{%- capture separator %}<br class="wide" /><span class="narrow">|</span>{% endcapture -%}
+{%- assign menu = site.pages | where: "collection", "menu" -%}
+
+<a class="menu-link" href="{{ site.baseurl }}/">Home</a>{{ separator -}}
+<a class="menu-link" href="{{ "files/hsieh-cv.pdf" | relative_url }}">CV&nbsp;(pdf)</a>{{ separator -}}
+
+{%- for page in menu -%}
+    <a class="menu-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title | replace: " ", "&nbsp;" }}</a>
+    {%- unless forloop.last %}{{ separator -}}{% endunless -%}
+{%- endfor -%}

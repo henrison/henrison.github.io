@@ -4,27 +4,22 @@ title: Home
 ---
 
 # Welcome!
-{{ site.description }}
+I am an Assistant Professor in Linguistics at National Tsing Hua University in Taiwan.
+I received my PhD from McGill University under the supervision of Junko Shimoyama, Lisa Travis, and Jessica Coon.
+Prior to joining NTHU, I previously served as a postdoctoral fellow at the Hong Kong Polytechnic University and the National University of Singapore.
+My main research interests lie with Tagalog, an Austronesian language spoken in the Philippines, and how it can inform our understanding of syntax and semantics.
 
 My dissertation investigates the structure and distribution of A'-dependencies (relative clauses, _wh_-questions, etc.) in Tagalog by considering a wider ranged of data than in previous work.
 
 My work primarily draws on elicitation and fieldwork data from native speaker (and my own) judgements, but I am always on the lookout for ways to incorporate larger amounts of data using experimental and/or computational methods.
 
-You can contact me via email at **henrison [dot] hsieh [at] polyu [dot] edu [dot] hk**.
+<!-- Last updated: {{ site.last_updated | date: "%b %Y" }} -->
 
 ## Recent and upcoming
-- November 2023: My paper entitled [_Observations on Tagalog Genitive Extraction_](https://doi.org/10.1353/ol.2023.a913560) has been published in Oceanic Linguistics
-- March 2023: My paper entitled [_Locality in Exceptional Tagalog A'-extraction_](https://doi.org/10.1162/ling_a_00505) is now available as <s>a "Just Accepted"</s> an "Early Access" paper through Linguistic Inquiry
-- March 2022: I have joined the Department of [Chinese and Bilingual Studies](https://www.polyu.edu.hk/cbs/) at Hong Kong PolyU, working under [Prof. Yu-Yin Hsu](https://sites.google.com/site/youyinxu/)
-<!-- - July 2021: My paper with [Luis Alonso-Ovalle](http://people.linguistics.mcgill.ca/~luis.alonso-ovalle) in Journal of Semantics entitled [_Causes and expectations: On the interpretation of the Tagalog Ability/Involuntary Action form_](https://doi.org/10.1093/jos/ffab008) has now been published! -->
 
-Last updated: {{ site.last_updated | date: "%b %Y" }}
-
-
-
-
-
-
+{% for entry in site.data.updates limit:4 %}
+  - **{{ entry.date | date: "%b %Y" }}:** {{ entry.text -}}
+{%- endfor %}
 
 
 
